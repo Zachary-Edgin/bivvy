@@ -1,0 +1,14 @@
+:root[data-theme='lava_light']{
+  --bg: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-2: #F7F7F9;
+  --surface-3: #EEF0F3;
+  --text: #0F172A;
+  --muted: #475569;
+  --primary: #CF5BFF;
+  --primary-2: #2EB8E6;
+  --danger: #FF984D;
+  --warning: #C8FF20;
+  --border: #E5E7EB;
+  --shadow: rgba(16,24,40,0.12);
+}

@@ -1,0 +1,14 @@
+:root[data-theme='orchid_dark']{
+  --bg: #120B18;
+  --surface: #1D1026;
+  --surface-2: #35204A;
+  --surface-3: #000000;
+  --text: #FFF0FF;
+  --muted: #D6B7E6;
+  --primary: #B56DFF;
+  --primary-2: #FF6DC2;
+  --danger: #FF4D6D;
+  --warning: #FFC857;
+  --border: #35204A;
+  --shadow: rgba(0,0,0,0.45);
+}

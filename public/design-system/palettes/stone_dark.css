@@ -1,0 +1,14 @@
+:root[data-theme='stone_dark']{
+  --bg: #FAF7F1;
+  --surface: #FFFFFF;
+  --surface-2: #EEF0F3;
+  --surface-3: #000000;
+  --text: #1B1B1B;
+  --muted: #5B5B5B;
+  --primary: #2F6FED;
+  --primary-2: #0F9D8A;
+  --danger: #D92D20;
+  --warning: #F79009;
+  --border: #EEF0F3;
+  --shadow: rgba(0,0,0,0.45);
+}

@@ -1,0 +1,14 @@
+:root[data-theme='mono_light']{
+  --bg: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-2: #F7F7F9;
+  --surface-3: #EEF0F3;
+  --text: #0F172A;
+  --muted: #475569;
+  --primary: #FF5B9B;
+  --primary-2: #4A2EE6;
+  --danger: #C6FF4D;
+  --warning: #20FF40;
+  --border: #E5E7EB;
+  --shadow: rgba(16,24,40,0.12);
+}

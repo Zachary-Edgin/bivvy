@@ -1,0 +1,14 @@
+:root[data-theme='violet_dark']{
+  --bg: #0B1020;
+  --surface: #111A33;
+  --surface-2: #22305A;
+  --surface-3: #000000;
+  --text: #E9EEFF;
+  --muted: #A9B4E6;
+  --primary: #5BDDFF;
+  --primary-2: #5CE62E;
+  --danger: #F14DFF;
+  --warning: #FF2059;
+  --border: #22305A;
+  --shadow: rgba(0,0,0,0.45);
+}

@@ -1,0 +1,14 @@
+:root[data-theme='rose_dark']{
+  --bg: #0B1020;
+  --surface: #111A33;
+  --surface-2: #22305A;
+  --surface-3: #000000;
+  --text: #E9EEFF;
+  --muted: #A9B4E6;
+  --primary: #6D5BFF;
+  --primary-2: #2EE6A6;
+  --danger: #FF4D6D;
+  --warning: #FFB020;
+  --border: #22305A;
+  --shadow: rgba(0,0,0,0.45);
+}

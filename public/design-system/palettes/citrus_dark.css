@@ -1,0 +1,14 @@
+:root[data-theme='citrus_dark']{
+  --bg: #0F1115;
+  --surface: #171A21;
+  --surface-2: #2A2F3B;
+  --surface-3: #000000;
+  --text: #F5F7FF;
+  --muted: #B8C0E0;
+  --primary: #FFCF5A;
+  --primary-2: #7CFF6B;
+  --danger: #FF5A7A;
+  --warning: #FF9F1A;
+  --border: #2A2F3B;
+  --shadow: rgba(0,0,0,0.45);
+}

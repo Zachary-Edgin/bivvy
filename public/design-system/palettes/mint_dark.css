@@ -1,0 +1,14 @@
+:root[data-theme='mint_dark']{
+  --bg: #061514;
+  --surface: #0B2320;
+  --surface-2: #13413A;
+  --surface-3: #000000;
+  --text: #E8FFFB;
+  --muted: #A7E6D9;
+  --primary: #1FBF9A;
+  --primary-2: #2DD4BF;
+  --danger: #FB7185;
+  --warning: #FBBF24;
+  --border: #13413A;
+  --shadow: rgba(0,0,0,0.45);
+}

@@ -1,0 +1,14 @@
+:root[data-theme='indigo_dark']{
+  --bg: #0B1020;
+  --surface: #111A33;
+  --surface-2: #22305A;
+  --surface-3: #000000;
+  --text: #E9EEFF;
+  --muted: #A9B4E6;
+  --primary: #BCFF5B;
+  --primary-2: #E62E37;
+  --danger: #4DEAFF;
+  --warning: #202CFF;
+  --border: #22305A;
+  --shadow: rgba(0,0,0,0.45);
+}

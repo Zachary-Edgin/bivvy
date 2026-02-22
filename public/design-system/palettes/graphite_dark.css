@@ -1,0 +1,14 @@
+:root[data-theme='graphite_dark']{
+  --bg: #0B1020;
+  --surface: #111A33;
+  --surface-2: #22305A;
+  --surface-3: #000000;
+  --text: #E9EEFF;
+  --muted: #A9B4E6;
+  --primary: #5BFF8E;
+  --primary-2: #E6CB2E;
+  --danger: #514DFF;
+  --warning: #DD20FF;
+  --border: #22305A;
+  --shadow: rgba(0,0,0,0.45);
+}

@@ -1,0 +1,14 @@
+:root[data-theme='moss_light']{
+  --bg: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-2: #F7F7F9;
+  --surface-3: #EEF0F3;
+  --text: #0F172A;
+  --muted: #475569;
+  --primary: #5BABFF;
+  --primary-2: #2EE638;
+  --danger: #FF4DD8;
+  --warning: #FF2A20;
+  --border: #E5E7EB;
+  --shadow: rgba(16,24,40,0.12);
+}

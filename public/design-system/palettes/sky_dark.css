@@ -1,0 +1,14 @@
+:root[data-theme='sky_dark']{
+  --bg: #0B1020;
+  --surface: #111A33;
+  --surface-2: #22305A;
+  --surface-3: #000000;
+  --text: #E9EEFF;
+  --muted: #A9B4E6;
+  --primary: #FFAF5B;
+  --primary-2: #E62EDC;
+  --danger: #4DFF74;
+  --warning: #20F5FF;
+  --border: #22305A;
+  --shadow: rgba(0,0,0,0.45);
+}

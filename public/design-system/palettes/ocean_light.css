@@ -1,0 +1,14 @@
+:root[data-theme='ocean_light']{
+  --bg: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-2: #F7F7F9;
+  --surface-3: #EEF0F3;
+  --text: #0F172A;
+  --muted: #475569;
+  --primary: #2CA8FF;
+  --primary-2: #37D6C4;
+  --danger: #FF5B7E;
+  --warning: #FFB84A;
+  --border: #E5E7EB;
+  --shadow: rgba(16,24,40,0.12);
+}

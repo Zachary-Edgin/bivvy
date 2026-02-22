@@ -1,0 +1,14 @@
+:root[data-theme='ember_dark']{
+  --bg: #140B08;
+  --surface: #22110C;
+  --surface-2: #3B1C12;
+  --surface-3: #000000;
+  --text: #FFF1E9;
+  --muted: #E3B6A1;
+  --primary: #FF6A3D;
+  --primary-2: #FFD166;
+  --danger: #E11D48;
+  --warning: #F59E0B;
+  --border: #3B1C12;
+  --shadow: rgba(0,0,0,0.45);
+}

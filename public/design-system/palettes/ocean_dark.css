@@ -1,0 +1,14 @@
+:root[data-theme='ocean_dark']{
+  --bg: #07131C;
+  --surface: #0C2130;
+  --surface-2: #1B3B4E;
+  --surface-3: #000000;
+  --text: #E9FBFF;
+  --muted: #97C8DA;
+  --primary: #2CA8FF;
+  --primary-2: #37D6C4;
+  --danger: #FF5B7E;
+  --warning: #FFB84A;
+  --border: #1B3B4E;
+  --shadow: rgba(0,0,0,0.45);
+}

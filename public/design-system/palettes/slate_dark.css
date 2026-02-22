@@ -1,0 +1,14 @@
+:root[data-theme='slate_dark']{
+  --bg: #0B0F14;
+  --surface: #141B23;
+  --surface-2: #223041;
+  --surface-3: #000000;
+  --text: #F1F5F9;
+  --muted: #A3B0C2;
+  --primary: #60A5FA;
+  --primary-2: #34D399;
+  --danger: #F87171;
+  --warning: #FBBF24;
+  --border: #223041;
+  --shadow: rgba(0,0,0,0.45);
+}

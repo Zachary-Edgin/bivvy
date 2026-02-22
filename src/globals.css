@@ -1,0 +1,266 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1a1a1a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#__next {
+  height: 100%;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Only show scrollbar on hover for panels */
+.panel-scroll::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+.panel-scroll:hover::-webkit-scrollbar-thumb {
+  background: #333;
+}
+.panel-scroll:hover::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Smooth transitions */
+button, a {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom animations */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s ease-out;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.2s ease-out;
+}
+
+/* Hover scale utilities */
+.hover\:scale-102:hover {
+  transform: scale(1.02);
+}
+
+.hover\:scale-105:hover {
+  transform: scale(1.05);
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(30, 30, 30, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Pulse animation for loading states */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Focus visible for accessibility - only on inputs and textareas */
+input:focus-visible,
+textarea:focus-visible,
+[contenteditable]:focus-visible {
+  outline: 2px solid #2296FF;
+  outline-offset: 2px;
+}
+
+/* Remove focus outline from buttons */
+button:focus-visible {
+  outline: none;
+}
+
+/* Selection color */
+::selection {
+  background-color: #9333ea;
+  color: white;
+}
+
+/* Toast animation */
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-toast-in {
+  animation: toast-in 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Context menu / dropdown animation */
+@keyframes menu-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-menu-in {
+  animation: menu-in 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Subtle fade for panels */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.2s ease-out;
+}
+
+/* ===== COMPONENT ENTRANCE ANIMATIONS ===== */
+@keyframes bivvy-fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes bivvy-slideUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes bivvy-slideDown {
+  from { opacity: 0; transform: translateY(-24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes bivvy-slideLeft {
+  from { opacity: 0; transform: translateX(24px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes bivvy-slideRight {
+  from { opacity: 0; transform: translateX(-24px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes bivvy-scaleUp {
+  from { opacity: 0; transform: scale(0.85); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes bivvy-bounce {
+  0% { opacity: 0; transform: translateY(24px); }
+  60% { opacity: 1; transform: translateY(-6px); }
+  80% { transform: translateY(2px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Animation utility classes applied by Canvas */
+.bivvy-anim-fadeIn { animation-name: bivvy-fadeIn; }
+.bivvy-anim-slideUp { animation-name: bivvy-slideUp; }
+.bivvy-anim-slideDown { animation-name: bivvy-slideDown; }
+.bivvy-anim-slideLeft { animation-name: bivvy-slideLeft; }
+.bivvy-anim-slideRight { animation-name: bivvy-slideRight; }
+.bivvy-anim-scaleUp { animation-name: bivvy-scaleUp; }
+.bivvy-anim-bounce { animation-name: bivvy-bounce; }
+
+[class*="bivvy-anim-"] {
+  animation-fill-mode: backwards;
+}
+
+/* ── Sub-element hover preview ── */
+/* When parent is selected and has children, show hover outlines on children */
+[data-children-hoverable="true"] [data-child-id] {
+  cursor: pointer !important;
+  transition: outline 0.1s ease, outline-offset 0.1s ease;
+}
+[data-children-hoverable="true"] [data-child-id]:hover {
+  outline: 1px dashed rgba(34, 150, 255, 0.5) !important;
+  outline-offset: 2px !important;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

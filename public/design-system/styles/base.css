@@ -1,0 +1,13 @@
+/* Vanilla base utilities */
+.container{max-width:1180px; margin:0 auto; padding: var(--space-8);}
+.stack{display:flex; flex-direction:column; gap: var(--space-4);}
+.row{display:flex; gap: var(--space-4); align-items:center; flex-wrap:wrap;}
+.grid{display:grid; gap: var(--space-4);}
+.hr{height:1px; background:var(--border); border:0;}
+.small{font-size:var(--text-sm); color:var(--muted);}
+.h1{font-size:var(--text-5xl); font-weight:950; letter-spacing:-.03em; line-height:1.05;}
+.h2{font-size:var(--text-4xl); font-weight:900; letter-spacing:-.02em;}
+.h3{font-size:var(--text-2xl); font-weight:850;}
+.h4{font-size:var(--text-xl); font-weight:800;}
+.muted{color:var(--muted);}
+.kbd{font: 650 var(--text-xs)/1 var(--font-mono); padding:.2rem .35rem; border:1px solid var(--border); border-radius: .35rem; background: var(--surface);}

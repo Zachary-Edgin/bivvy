@@ -1,0 +1,14 @@
+:root[data-theme='sunset_light']{
+  --bg: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-2: #F7F7F9;
+  --surface-3: #EEF0F3;
+  --text: #0F172A;
+  --muted: #475569;
+  --primary: #FF4D8D;
+  --primary-2: #FFB020;
+  --danger: #EF4444;
+  --warning: #F59E0B;
+  --border: #E5E7EB;
+  --shadow: rgba(16,24,40,0.12);
+}

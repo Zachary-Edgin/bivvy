@@ -1,0 +1,14 @@
+:root[data-theme='copper_dark']{
+  --bg: #0B1020;
+  --surface: #111A33;
+  --surface-2: #22305A;
+  --surface-3: #000000;
+  --text: #E9EEFF;
+  --muted: #A9B4E6;
+  --primary: #FFE05B;
+  --primary-2: #E62EA5;
+  --danger: #4DFFAA;
+  --warning: #20B2FF;
+  --border: #22305A;
+  --shadow: rgba(0,0,0,0.45);
+}

@@ -1,0 +1,14 @@
+:root[data-theme='sunset_dark']{
+  --bg: #120B10;
+  --surface: #221126;
+  --surface-2: #3A1C31;
+  --surface-3: #000000;
+  --text: #FFEFF5;
+  --muted: #E7B7C8;
+  --primary: #FF4D8D;
+  --primary-2: #FFB020;
+  --danger: #EF4444;
+  --warning: #F59E0B;
+  --border: #3A1C31;
+  --shadow: rgba(0,0,0,0.45);
+}

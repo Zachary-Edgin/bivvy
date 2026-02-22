@@ -1,0 +1,14 @@
+:root[data-theme='forest_dark']{
+  --bg: #07120C;
+  --surface: #0D2418;
+  --surface-2: #1F3B2A;
+  --surface-3: #000000;
+  --text: #EFFFF2;
+  --muted: #A9D6B5;
+  --primary: #34D399;
+  --primary-2: #22C55E;
+  --danger: #F43F5E;
+  --warning: #FBBF24;
+  --border: #1F3B2A;
+  --shadow: rgba(0,0,0,0.45);
+}

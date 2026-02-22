@@ -1,0 +1,14 @@
+:root[data-theme='steel_dark']{
+  --bg: #0B1020;
+  --surface: #111A33;
+  --surface-2: #22305A;
+  --surface-3: #000000;
+  --text: #E9EEFF;
+  --muted: #A9B4E6;
+  --primary: #5B7AFF;
+  --primary-2: #2EE66F;
+  --danger: #FF4DA2;
+  --warning: #FF6D20;
+  --border: #22305A;
+  --shadow: rgba(0,0,0,0.45);
+}

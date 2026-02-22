@@ -1,0 +1,14 @@
+:root[data-theme='sand_dark']{
+  --bg: #0B1020;
+  --surface: #111A33;
+  --surface-2: #22305A;
+  --surface-3: #000000;
+  --text: #E9EEFF;
+  --muted: #A9B4E6;
+  --primary: #FF5BFD;
+  --primary-2: #2E80E6;
+  --danger: #FFCD4D;
+  --warning: #85FF20;
+  --border: #22305A;
+  --shadow: rgba(0,0,0,0.45);
+}

@@ -1,0 +1,14 @@
+:root[data-theme='peach_light']{
+  --bg: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-2: #F7F7F9;
+  --surface-3: #EEF0F3;
+  --text: #0F172A;
+  --muted: #475569;
+  --primary: #5BFFBF;
+  --primary-2: #CAE62E;
+  --danger: #864DFF;
+  --warning: #FF20DE;
+  --border: #E5E7EB;
+  --shadow: rgba(16,24,40,0.12);
+}

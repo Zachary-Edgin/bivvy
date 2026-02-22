@@ -1,0 +1,14 @@
+:root[data-theme='copper_light']{
+  --bg: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-2: #F7F7F9;
+  --surface-3: #EEF0F3;
+  --text: #0F172A;
+  --muted: #475569;
+  --primary: #FFE05B;
+  --primary-2: #E62EA5;
+  --danger: #4DFFAA;
+  --warning: #20B2FF;
+  --border: #E5E7EB;
+  --shadow: rgba(16,24,40,0.12);
+}
